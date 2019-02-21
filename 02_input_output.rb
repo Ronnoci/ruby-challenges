@@ -3,13 +3,15 @@
 
 # Program is run and outputs:
 # "What is your name?"
-
+puts "What is your name?"
 # User inputs: "Tom"
-
+name = gets.chomp
 # Program outputs:
 # "Hi Tom! How old are you?"
-
+puts "Hi Tom! How old are you?"
+ age = gets.chomp
 # User inputs: 40
+puts "Wow! you are 40 years old. congratulations!"
 
 # Program outputs:
 # "Wow! You are 40 years old. Congratulations!"
