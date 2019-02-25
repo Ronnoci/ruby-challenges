@@ -20,6 +20,13 @@ end
 puts largest_number(100, 50)
 puts largest_number(10,20)
 
+def largest_number (number_1, number_2)
+    numbs = [Float(number_1), Float(number_2)]
+    return numbs.max
+  rescue ArgumentErrot
+    puts "Non-Numeric Input"
+end
+puts largest_number(10,20)
 
 
 # Example:
@@ -37,8 +44,3 @@ puts largest_number(10,20)
 # 
 # Examples - what if both numbers are equal or are strings?
 
-def largest_number (number_1, number_2)
-  # Your code here
-end
-
-largest_number(100,50)
