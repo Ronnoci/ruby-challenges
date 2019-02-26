@@ -2,13 +2,13 @@
 
 # Write a method that will take an array of numbers,
 # and return their sum.
-
+                                          
 sum_numbers = 0
 [1,2,3,4,5,6,7,8,9].each do |add|
   sum_numbers += add
 end
-puts sum_numbers
-
+puts "Adding all these numbers = #{sum_numbers}"
+                                                      
 #---------------------------------------------------------------------------------------
 
 sum_numbers = [1,2,3,4,5,6,7,8,9]
@@ -18,7 +18,7 @@ sum_numbers.each do |add|
   sum_numbers = sum += add
 end
 
-puts sum_numbers
+puts "The sum of all these numbers = #{sum_numbers}"
 
 
 # Example:
