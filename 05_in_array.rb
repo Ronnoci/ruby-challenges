@@ -16,7 +16,7 @@
 def in_array (needle, haystack)
   return haystack.include? needle
 end
-in_array("hello", ["hi", "howdy", "haystack"])
+puts in_array("hello", ["hi", "howdy", "hello"])
 
 # Beast Mode:
 
