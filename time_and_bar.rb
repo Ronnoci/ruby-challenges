@@ -56,14 +56,11 @@ puts order["beer"]
 require "colorize"                                      #allows me to make it colourful
 order = {"cocktail" => 3, "water" => 2, "beer" => 6}    #hash for the drinks and how many are currently backlogged
 
-class Bar
- 
-def cust_order    
-    puts "What would you like to order?".colorize(:light_blue)
-    drink = gets.chomp                                     #Allows cusotmers input 
-end
 
-def order_add
+
+puts "What would you like to order?".colorize(:light_blue)   #Asks customer what they want
+drink = gets.chomp                                     #Allows cusotmers input 
+
 case drink
 when "cocktail"                                         #Adds 1 drink to whatever customer inputs
     order["cocktail"] += 1                              #
