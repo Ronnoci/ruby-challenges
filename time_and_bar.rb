@@ -58,11 +58,12 @@ order = {"cocktail" => 3, "water" => 2, "beer" => 6}    #hash for the drinks and
 puts "What would you like to order?"                    #Asks customer what they want
 drink = gets.chomp                                      #Allows cusotmers input 
 
-if drink == "cocktail"                                  #Adds 1 drink to whatever customer inputs
+case drink
+when "cocktail"                                         #Adds 1 drink to whatever customer inputs
     order["cocktail"] += 1                              #
-elsif drink == "water"                                  #
+when "water"                                            #
     order["water"] += 1                                 #
-elsif drink == "beer"                                   #
+when "beer"                                             #
     order["beer"] += 1                                  #
 else
     puts "Sorry, we do not have that!"
