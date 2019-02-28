@@ -53,11 +53,17 @@ puts order["beer"]
 
 # Print out the total profit for the orders you have
 
+require "colorize"                                      #allows me to make it colourful
 order = {"cocktail" => 3, "water" => 2, "beer" => 6}    #hash for the drinks and how many are currently backlogged
 
-puts "What would you like to order?"                    #Asks customer what they want
-drink = gets.chomp                                      #Allows cusotmers input 
+class Bar
+ 
+def cust_order    
+    puts "What would you like to order?".colorize(:light_blue)
+    drink = gets.chomp                                     #Allows cusotmers input 
+end
 
+def order_add
 case drink
 when "cocktail"                                         #Adds 1 drink to whatever customer inputs
     order["cocktail"] += 1                              #
@@ -69,11 +75,11 @@ else
     puts "Sorry, we do not have that!"
 end
 
-puts "Cocktail:"                                        #Displays updated drinks log
+puts "Cocktail:".colorize(:background => :red)          #Displays updated drinks log
 puts order["cocktail"]                                  #
-puts "Water:"                                           #
+puts "Water:".colorize(:background => :red)             #
 puts order["water"]                                     #
-puts "Beer:"
+puts "Beer:".colorize(:background => :red)              #
 puts order["beer"]                                      #
 
 drink1 = (22 - 8) * order["cocktail"]                   # Takes cost to buy away from price of drink then times number of drinks
@@ -82,6 +88,6 @@ drink3 = (12 - 3) * order["beer"]                       #
 
 total = drink1 + drink2 + drink3                        #Adds all drinks profits together
 
-puts "Total profit of current order:"                   #Displays total profit
-puts "$#{total}"                                        #
+puts "Total profit of current order:".colorize(:yellow) #Displays total profit
+puts "$#{total}".colorize(:green)                                       #
 
