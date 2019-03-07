@@ -27,5 +27,5 @@ def included_once (haystack, needle)
   (count > 1 || count == 0) ? (return false) : (return true) #Was the word encountered more than once or not at all? Return false, otherwise return true.
 end
      
-puts included_once(['hello','hi','hi'], 'hi')
-puts included_once(['hello','hi','hey'], 'hi')
+# puts included_once(['hello','hi','hi'], 'hi')
+# puts included_once(['hello','hi','hey'], 'hi')
