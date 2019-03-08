@@ -11,16 +11,13 @@
 # ruby tests/09_vowels_test.rb
 
 def vowels (string)
-  vowel = ["a", "e", "i", "o", "u"]
-  count = 0
-  string.split("").each do |char|
-    vowel.each do |item|
-      if char == item
-        count += 1
-      end
+
+  vowels = [ 'a', 'e', 'i', 'o', 'u' ]
+  found = []
+
+    for letter in string.chars
+      found << letter if vowels.include?(letter.downcase)
     end
-  end
+  return found
 end
 
-puts vowels("The quick brown fox") 
-puts vowels("Hello World") 

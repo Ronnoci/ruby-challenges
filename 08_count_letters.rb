@@ -11,15 +11,15 @@
 # ruby tests/08_count_letters_test.rb
 
 def count_letters (string)
-  result = {} # You'll need an empty hash to get started!
-  result.default = 0
-  letters = string.chars
-  letters.each do |letter|
-  result[letter] +=1
+    result = {} # You'll need an empty hash to get started!
+    result.default = 0
+    letters = string.chars
+    letters.each do |letter|
+    result[letter] +=1
+  end
   return result # return the hash
- end
-
 end
 
-#  puts count_letters("hello")
-#  puts count_letters("mississippi")
+ puts count_letters("hello")
+ puts count_letters("mississippi")
+ 
