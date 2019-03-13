@@ -15,7 +15,10 @@
     1. Push to master in your fork:<br/>
      `git push origin master`
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
@@ -30,4 +33,8 @@
 * 11_fizzbuzz
 * 12_count_words
 * 13_fibonacci
+<<<<<<< HEAD
 
+=======
+* 14_hackerman
+>>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
