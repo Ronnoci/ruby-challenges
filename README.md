@@ -16,9 +16,12 @@
      `git push origin master`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
+=======
+>>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
@@ -34,7 +37,12 @@
 * 12_count_words
 * 13_fibonacci
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 14_hackerman
 >>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
+=======
+* 14_hackerman
+* 15_change_letters
+>>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
