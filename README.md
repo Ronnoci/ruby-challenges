@@ -17,11 +17,14 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
 =======
 >>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
+=======
+>>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
@@ -38,6 +41,7 @@
 * 13_fibonacci
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 14_hackerman
@@ -46,3 +50,8 @@
 * 14_hackerman
 * 15_change_letters
 >>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
+=======
+* 14_hackerman
+* 15_change_letters
+* 16_palindrome
+>>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
