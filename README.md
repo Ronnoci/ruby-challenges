@@ -10,11 +10,14 @@
     3. Pull down the challenge: <br/>
      `git pull --no-edit upstream <challenge_branch>`
     4. Complete the challenge
-    5. Checkout master branch and merge challenge branch:<br/>
+    5. Add and commit your changes
+    `git add . && git commit -m "<insert commit message>"`
+    6. Checkout master branch and merge challenge branch:<br/>
     `git checkout master && git merge <challenge_branch>`
-    1. Push to master in your fork:<br/>
+    7. Push to master in your fork:<br/>
      `git push origin master`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,6 +31,8 @@
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
 =======
 >>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
+=======
+>>>>>>> 34341dc172d935d150f8aa9b4afd5af66d9ec66b
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
@@ -46,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 14_hackerman
@@ -60,8 +66,15 @@
 * 16_palindrome
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
 =======
+=======
+>>>>>>> 34341dc172d935d150f8aa9b4afd5af66d9ec66b
 * 14_hackerman
 * 15_change_letters
 * 16_palindrome
 * 17_combine_hashes
+<<<<<<< HEAD
 >>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
+=======
+* 18_find_errors
+* 19_balanced_number
+>>>>>>> 34341dc172d935d150f8aa9b4afd5af66d9ec66b
