@@ -17,22 +17,6 @@
     7. Push to master in your fork:<br/>
      `git push origin master`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
-=======
->>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
-=======
->>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
-=======
->>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
-=======
->>>>>>> 34341dc172d935d150f8aa9b4afd5af66d9ec66b
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
@@ -47,34 +31,11 @@
 * 11_fizzbuzz
 * 12_count_words
 * 13_fibonacci
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-* 14_hackerman
->>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
-=======
-* 14_hackerman
-* 15_change_letters
->>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
-=======
-* 14_hackerman
-* 15_change_letters
-* 16_palindrome
->>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
-=======
-=======
->>>>>>> 34341dc172d935d150f8aa9b4afd5af66d9ec66b
 * 14_hackerman
 * 15_change_letters
 * 16_palindrome
 * 17_combine_hashes
-<<<<<<< HEAD
->>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
-=======
 * 18_find_errors
 * 19_balanced_number
->>>>>>> 34341dc172d935d150f8aa9b4afd5af66d9ec66b
+* 20_descending_numbers
+
