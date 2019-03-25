@@ -48,5 +48,34 @@
 # Note : The middle digit(s) are 02.
 
 def balanced_num(number)
-    # Your code goes here
+    
+    # Turn the number into an array
+    num_arr = number.to_s.split("")
+
+
+    # The max index for the left side of the number will be
+    # length/2 - 1 if the array length is odd, and will be
+    # length/2 - 2 if the array length is even 
+    # (because there will be two middle elements)
+    if (num_arr.length % 2 == 0)
+        max_left_ind_subtractor = 2
+    else
+        max_left_ind_subtractor = 1
+    end
+    sum_left=0
+    sum_right=0
+    # sum the left half of the array
+    (0..(num_arr.length/2 - max_left_ind_subtractor)).each do |i|
+        sum_left += num_arr[i].to_i
+    end
+    # sum the right half of the array
+    ((num_arr.length/2 +1)..(num_arr.length - 1)).each do |i|
+        sum_right += num_arr[i].to_i
+    end
+    # Return "Balanced" if the left and right sums are equal
+    # and "Not Balanced" if they are not equal
+    sum_left == sum_right ? "Balanced" : "Not Balanced"
 end
+
+puts balanced_num(295591) 
+puts balanced_num(739664) 
