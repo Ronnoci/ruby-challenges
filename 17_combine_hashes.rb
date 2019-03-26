@@ -25,9 +25,27 @@
 
 def combine_hashes(hash1, hash2)
   hash3 = {}
-
-hash3 = hash1.merge(hash2) { |k, x, y| x + y }
-
-return hash3
-
+  hash1.each do |key, value|
+    hash3[key] = value
+  end
+  hash2.each do |key, value|
+    if hash3.include? key
+      hash3[key] += value
+    else
+      hash3[key] = value
+    end
+  end
+  return hash3
 end
+
+puts combine_hashes({a: 2, b: 3}, {a: 200, b: 3, c: 3})
+
+
+# def combine_hashes(hash1, hash2)
+#   hash3 = {}
+
+# hash3 = hash1.merge(hash2) { |k, x, y| x + y }
+
+# return hash3
+
+# end
