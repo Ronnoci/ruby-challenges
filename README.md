@@ -18,10 +18,13 @@
      `git push origin master`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> 85cbb7c5afd0b20a011ceed2d9e803213fd2f716
+=======
+>>>>>>> a87187ce63d794abb384db7a7bfb3dbc533fc579
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
@@ -45,7 +48,12 @@
 * 20_descending_numbers
 * 21_sort_numbers
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 22_exes_ohs
 >>>>>>> 85cbb7c5afd0b20a011ceed2d9e803213fd2f716
+=======
+* 22_exes_ohs
+* 23_first_non_repeating
+>>>>>>> a87187ce63d794abb384db7a7bfb3dbc533fc579
