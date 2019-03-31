@@ -14,6 +14,7 @@
 
 # *E.g.* isogram?("scary") should return true
 
+
 def isogram?(input)
     input = input.chars
     duplicates = true

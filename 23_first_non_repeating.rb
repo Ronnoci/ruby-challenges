@@ -42,3 +42,5 @@ end
 puts first_non_repeating("aaaabbbcccdeeefgh")
 puts first_non_repeating("wwwhhhggge")
 puts first_non_repeating("wwwhhhggg")
+puts first_non_repeating("awwwhhhaaggg")
+puts first_non_repeating("aww3whhhaaggg")
