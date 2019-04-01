@@ -29,11 +29,7 @@ def first_non_repeating(input)
     input = input.chars
     no_match = true
     input.each do | x |
-        if input.count(x) < 2
-            return x  
-        else
-            no_match = false
-        end
+        input.count(x) < 2 ? (return x):(no_match = false)     
     end
     return no_match        
 end
