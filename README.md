@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -31,6 +32,8 @@
 >>>>>>> d803e12e3b11627a2fdc70c32df1d4ca01cf3571
 =======
 >>>>>>> 956e44bc9d9466bda375724a73da6f56ae18eb35
+=======
+>>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
@@ -57,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 22_exes_ohs
@@ -76,3 +80,9 @@
 * 24_isogram
 * 25_remove_adjacent_duplicates
 >>>>>>> 956e44bc9d9466bda375724a73da6f56ae18eb35
+=======
+* 22_exes_ohs
+* 23_first_non_repeating
+* 24_isogram
+* 25_remove_adjacent_duplicates
+>>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
