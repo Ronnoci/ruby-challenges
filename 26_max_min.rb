@@ -16,7 +16,7 @@
 # Write your own test file for this challenge using Test::Unit
 
 def max_min(num_string)
-    num_string.split(' ').map(&:to_i).sort.values_at(0,-1).join(', ')
+    num_string.split(' ').map(&:to_i).sort.values_at(0,-1).join(' and ')
 end
 
 puts max_min("5 2 9 8 23 1")

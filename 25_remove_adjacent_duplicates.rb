@@ -17,7 +17,7 @@ def remove_adjacent_duplicates(input)
     input = input.chars     
     index = 0 
     input.each do         
-        if input[index] == input[index+1]
+        if input[index] == input[index+1] && input[index-1]
             input.delete_at(index)                   
         end
         index += 1             
@@ -25,4 +25,4 @@ def remove_adjacent_duplicates(input)
     return input.join
 end
 
-#  puts remove_adjacent_duplicates("AAaAbbCCCcDDcDA")
+ puts remove_adjacent_duplicates("AAaAbbCCCcDDcDA")
