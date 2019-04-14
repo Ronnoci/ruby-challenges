@@ -28,7 +28,7 @@ def in_array_strict? (string, arr, strict)
     case strict
     when true
         arr.each do |x|
-            if x == string ? true
+            if x == string
                 return true
             end
         end
