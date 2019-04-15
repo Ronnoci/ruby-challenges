@@ -40,31 +40,39 @@
 #     end
 # end
 
+
 def exes_and_ohs(input)
+    uniq_array = input.downcase.split('').uniq
+    array = input.downcase.split('')
+    return false if uniq_array.length != 2
+    array.count(uniq_array[0]) == array.count(uniq_array[1]) ? true : false
+   end
 
-    arr = []
-    arr2 = []
+# def exes_and_ohs(input)
 
-    input = input.downcase.chars.sort
+#     arr = []
+#     arr2 = []
 
-    input2 = input.uniq
+#     input = input.downcase.chars.sort
 
-    ex = input2[0]
-    oh = input2[1]
+#     input2 = input.uniq
 
-    if input2.length == 2
+#     ex = input2[0]
+#     oh = input2[1]
+
+#     if input2.length == 2
         
-        input.each do |x|
-            if x == ex
-                arr.push(x)
-            elsif x == oh
-                arr2.push(x)
-            end
-        end
+#         input.each do |x|
+#             if x == ex
+#                 arr.push(x)
+#             elsif x == oh
+#                 arr2.push(x)
+#             end
+#         end
         
-        arr.length == arr2.length ? true : false
+#         arr.length == arr2.length ? true : false
         
-    else
-        return false
-    end
-end
+#     else
+#         return false
+#     end
+# end

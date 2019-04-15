@@ -52,7 +52,6 @@ def balanced_num(number)
     # Turn the number into an array
     num_arr = number.to_s.split("")
 
-
     # The max index for the left side of the number will be
     # length/2 - 1 if the array length is odd, and will be
     # length/2 - 2 if the array length is even 
