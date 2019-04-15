@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -43,6 +44,8 @@
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
 =======
 >>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
@@ -73,6 +76,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 * 22_exes_ohs
@@ -89,10 +93,13 @@
 =======
 =======
 >>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 22_exes_ohs
 * 23_first_non_repeating
 * 24_isogram
 * 25_remove_adjacent_duplicates
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 956e44bc9d9466bda375724a73da6f56ae18eb35
 =======
@@ -117,8 +124,14 @@
 * 28_good_walk
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
 =======
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 26_max_min
 * 27_in_array_strict
 * 28_good_walk
 * 29_shortest_walk
+<<<<<<< HEAD
 >>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
+=======
+* 30_spin_words
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
