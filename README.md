@@ -40,8 +40,6 @@
 * 20_descending_numbers
 * 21_sort_numbers
 * 22_exes_ohs
-<<<<<<< HEAD
-=======
 * 23_first_non_repeating
 * 24_isogram
 * 25_remove_adjacent_duplicates
@@ -51,4 +49,3 @@
 * 29_shortest_walk
 * 30_spin_words
 * 31_missing_letter
->>>>>>> f2b33863ae6fe937126f3c6091cac15beffa7874
