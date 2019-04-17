@@ -49,3 +49,7 @@
 * 29_shortest_walk
 * 30_spin_words
 * 31_missing_letter
+<<<<<<< HEAD
+=======
+* 32_interesting_number
+>>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
