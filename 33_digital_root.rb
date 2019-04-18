@@ -16,12 +16,14 @@
 # Return -1 if any negative argument is provided.
 
 def digital_root(number)
-    # number.to_s.chars.map(&:to_i).sum.to_s.chars.map(&:to_i).sum.to_s.chars.map(&:to_i).sum
-    number.digits.sum.digits.sum.digits.sum
+    return -1 if number < 0
+    # number.to_s.chars.map(&:to_i).sum.to_s.chars.map(&:to_i).sum
+    number.digits.sum.digits.sum
 end
 
 puts digital_root(65)
-puts digital_root(45643567294554)
-puts digital_root(89)
+puts digital_root(4546435)
+puts digital_root(-89)
 puts digital_root(675)
+puts digital_root(4)
 
