@@ -16,33 +16,20 @@
 # interesting_number(3210) => true
 
 def interesting_number(number)
-    number = number.chars
-    interesting = true
-    (0..9).each do |number|
-        if number < 3
-            interesting = false
-        else
-            return interesting
-        end        
-    end
-    return interesting
+
+    return false if number.to_s.length < 3  
+     
+    arr = number.to_s.chars
+
+    arr[0] < arr[-1] ? arr.sort == arr : arr.sort.reverse == arr 
     
 end
-
 
 puts interesting_number(789)
 puts interesting_number(321)
 puts interesting_number(798)
 puts interesting_number(6) 
 puts interesting_number(23) 
+puts interesting_number(123456789) 
 
 
-# input = input.chars
-# duplicates = true
-# input.each do | x |
-#     if input.count(x) > 1
-#         duplicates = false
-#     end
-# end
-# return duplicates
-# end
