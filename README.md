@@ -51,6 +51,7 @@
 * 31_missing_letter
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * 32_interesting_number
 >>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
@@ -58,3 +59,8 @@
 * 32_interesting_number
 * 33_digital_root
 >>>>>>> a1edc1cb97d785270c514b06416370cd6afc49a5
+=======
+* 32_interesting_number
+* 33_digital_root
+* 34_prime_number
+>>>>>>> 3656a16c2fea7068365e58f9c507d2f83edc5107
